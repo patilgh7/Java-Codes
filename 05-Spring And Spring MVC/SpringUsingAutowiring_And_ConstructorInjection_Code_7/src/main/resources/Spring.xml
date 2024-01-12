@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<!-- <bean/> definitions here -->
+
+	<!-- Constructor Based Injection -->
+
+	<!-- autowire = "constructor" constructor-arg type = "int" value="101" type 
+		= "int/String" mention karav lagto nahitar error yeto jyaveli secondary class 
+		like Address present asto -->
+		
+		
+
+	<bean id="e" class="Employee" autowire="constructor">
+		<constructor-arg type="int" value="101"></constructor-arg>
+		<constructor-arg type="String" value="Ram"></constructor-arg>
+		<constructor-arg type="String" value="100000"></constructor-arg>
+	</bean>
+
+	<bean id="address" class="Address">
+		<constructor-arg value="Pune"></constructor-arg>
+		<constructor-arg value="Maharashtra"></constructor-arg>
+	</bean>
+
+
+</beans>

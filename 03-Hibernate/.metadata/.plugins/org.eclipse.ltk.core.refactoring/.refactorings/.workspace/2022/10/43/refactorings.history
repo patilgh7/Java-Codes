@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;HibernateOneToManyMappingProject_Code2&apos;" deleteContents="true" description="Delete resource &apos;HibernateOneToManyMappingProject_Code2&apos;" element1="/HibernateOneToManyMappingProject_Code2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1665989865173"/>&#x0A;<refactoring comment="Delete resource &apos;OneToManyMapping_And_ManyToOne_Code3&apos;" deleteContents="true" description="Delete resource &apos;OneToManyMapping_And_ManyToOne_Code3&apos;" element1="/OneToManyMapping_And_ManyToOne_Code3" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1665989913106"/>
+</session>
